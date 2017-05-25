@@ -1,0 +1,1 @@
+SELECT * FROM tweets.twitter WHERE text regexp '^[a-f0-9]{32}$' ORDER BY created_at DESC LIMIT 10;
