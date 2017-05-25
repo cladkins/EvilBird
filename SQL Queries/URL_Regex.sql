@@ -1,0 +1,1 @@
+SELECT * FROM tweets.twitter WHERE text regexp '^(https?://|www\\.)[\.A-Za-z0-9\-]+\\.[a-zA-Z]{2,4}' ORDER BY created_at DESC LIMIT 1;
