@@ -1,0 +1,1 @@
+SELECT * FROM tweets.twitter WHERE text regexp '[A-Fa-f0-9]{64}' ORDER BY created_at DESC LIMIT 1;
